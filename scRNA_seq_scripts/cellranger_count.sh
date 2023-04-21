@@ -9,6 +9,7 @@
 
 cd /crex/proj/snic2021-23-14/Xue/scRNA-seq/fastq/GSE123013
 module load bioinfo-tools cellranger/7.0.1
+# id could be any name, it's the name of the output folder 
 cellranger count --id=GSE123013 \
 --transcriptome=/crex/proj/snic2021-23-14/Xue/Ath \
 --fastqs=/crex/proj/snic2021-23-14/Xue/scRNA-seq/fastq/GSE123013 \
